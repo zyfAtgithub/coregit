@@ -216,5 +216,6 @@ public class FTPUtils {
 //		FTPInfo ftpLocal = new FTPInfo("192.168.1.105", 21, "zftp", "zftp", "gbk", "aspnet_client/system_web/4_0_30319", "d:/");
 		FTPInfo ftpGov = new FTPInfo("192.168.1.106", 21, "zftp", "1111", "gbk", "/", "d:\\ftpclient\\");
 		downLoadFile(ftpGov);
+		System.out.println("Hello");
 	}
 }
