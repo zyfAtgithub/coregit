@@ -214,7 +214,7 @@ public class FTPUtils {
 	public static void main(String[] args) throws IOException {
 //		FTPInfo ftpGov = new FTPInfo("211.99.132.176", 10221, "ftpadmin", "ftpadmin");
 //		FTPInfo ftpLocal = new FTPInfo("192.168.1.105", 21, "zftp", "zftp", "gbk", "aspnet_client/system_web/4_0_30319", "d:/");
-		FTPInfo ftpGov = new FTPInfo("192.168.1.106", 21, "zftp", "1111", "gbk", "/", "d:\\ftpclient\\");
+		FTPInfo ftpGov = new FTPInfo("localhost", 21, "zftp", "1111", "gbk", "/", "e:\\ftpclient\\");
 		downLoadFile(ftpGov);
 		System.out.println("Hello");
 	}
