@@ -167,6 +167,6 @@ public class DateUtils {
 	
 	public static void main(String[] args) {
 		String now = getNowTimeMillSec();
-		System.out.println(now);
+		System.out.println("now:" + now);
 	}
 }
