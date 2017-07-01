@@ -13,7 +13,9 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="conf"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+	<classpathentry excluding="com/yf/springdemo/hello2/impl/SpringHelloWorld.java" kind="src" path="test/java"/>
+	<classpathentry kind="src" path="test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_131">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>

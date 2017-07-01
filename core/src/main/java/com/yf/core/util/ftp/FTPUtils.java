@@ -35,9 +35,6 @@ public class FTPUtils {
 	/** 本地文件系统字符编码 */
 	private static String LOCAL_CHARSET = System.getProperty("file.encoding");
 
-	/** FTP协议里面，规定文件名编码为iso-8859-1 */
-	private static String SERVER_ENCODING = "ISO-8859-1";
-	
 	/**
 	 * 获取FTP客户端
 	 *  
